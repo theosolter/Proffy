@@ -4,29 +4,23 @@
 
 
 
-## Sobre o Projeto
+## About the project
 
-  Esse projeto foi desenvolvido durante a Next Level Week, organizada pela Rocketseat, evento criado com o objetivo de passar, no periodo
-de uma semana, conhecimentos básicos e avançados de programação, por meio do desenvolvimento de um projeto de ponta a ponta. O projeto
-de vez foi o Ecoleta.
+  This project was developed during the Next Level Week, an event organized by Rocketseat, whose goal is to, in a week, build a full stack programming application from start to finish. This week the project is called Proffy.
 
-  O Proffy é um aplicativo de Marketplace de professores de programação, visando conectar alunos interessados em conhecer a linguagem JavaScript e instrutores dispostos a ensina-la. Ele foi desenvolvido com uma Rest API em NodeJs, ReactJS e React Native, tudo isso utilizando o TypeScript.
+  Proffy is a marketplace application for high school teachers and students. Its goal is to connect students who are seeking help for high school subjects and teachers who are willing to offer them this service. Proffy was developed with a REST API in NodeJS, ReactJS and React Native all using TypeScript.
 
-  A escolha dessa Stack se deve à quantidade de conhecimento que é possível aproveitar entre as tecnologias, por conta de todas elas utilizarem 
-apenas uma linguagem: o JavaScript, além de serem extremamente modernas e poderosas com o uso de seu ecossistema.
 
-## Motivação social
+## Demo
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/59852846/89736484-1b5c0900-da40-11ea-92ef-5c55d2f1648a.gif"  height="500"/>
 </p>
 
-  O Proffy é uma aplicação voltada para a conexão entre professores de programação (Principalmente do ecossistema JavaScript) e alunos que querem aprender. Uma funcionalidade a mais foi implementada nessa versão da aplicação proposta na NLW: o backend consome os dados da API do Github, portanto o usuário não precisará fornecer sua foto, seu nome ou uma bio, tudo será importado do seu Github e salvo no nosso banco de dados.
 
-
-## Tecnologias:
-  O Proffy é um aplicação complexa e, portanto muitas ferramentas foram utilizadas para o seu desenvolvimento. Entre elas estão:
-
+## Technologies:
+  Proffy is a complete application so several tools were used in its development. They are:
+ 
 - TypeScript
 - Node
 - React
@@ -36,48 +30,38 @@ apenas uma linguagem: o JavaScript, além de serem extremamente modernas e poder
 - React Native
   - React Navigation
   - React Native Gesture Handler
-  - React Native Reanimated
   - React Native Screens
   - React Native Svg
-  - React Native Web
 - Expo
   - Expo Font
-  - Expo Location
-  - Expo Mail Composer
 - SQLite3
-- Join
-- Express
 - Knex
-- CORS
 - Axios
-- Multer 
-- ESlint
-- Prettier
 
-## Ambiente de Desenvolvimento
+## Development enviroment
 
-Para rodar essa aplicação em sua máquina, você precisará de um ambiente NodeJs básico instalado.
+In order to run this application on your machine, you need to have NodeJS installed.
 
-**Clonando o repositório:**
+**Cloning the repository:**
 
 ```
-$ git clone https://github.com/bprofiro/proffy.git
+$ git clone https://github.com/theosolter/Proffy.git
 ```
 
-### Instalando:
+### Installing:
 
 **Back-End**
 
-- Digite `npm install` na pasta `backend` para instalar todas as dependências;
-- Digite `npm run start` para rodar o servidor;
+- Type `npm install` in the folder `server` to install all dependencies;
+- Type `npm run start` to run server;
 
 **Front-End** 
 
-- Digite `npm install` na pasta `web` para instalar todas as dependências;
-- Digite `npm start` para rodar o projeto;
+- Type `npm install` in the folder `web` to install all dependencies;
+- Type `npm start` to run project;
 
 **Mobile** 
 
-- Digite `npm install` na pasta `mobile` para instalar todas as dependências;
-- Atualize a baseURL na pasta src/services/api.js.
-- Digite `expo start` para rodar o projeto.
+- Type `npm install` in the folder `mobile` to install all dependencies;
+- Update the baseURL in the folder src/services/api.js.
+- Type `expo start` to run project.
